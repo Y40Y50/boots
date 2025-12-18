@@ -25,6 +25,16 @@ h1, h2 {
 #portfolio {
     background-color: #dbdcde;
 }
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798;
+}
+#portfolio .card-text {
+    min-height: 120px;
+}
 #contact {
     background-color: white;
 }
@@ -36,4 +46,14 @@ h1, h2 {
     min-height: 500px;
     padding: 5% 7%;
 
+}
+.sharp-corners,
+.sharp-corners * {
+    border-radius: 0 !important;
+}
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
