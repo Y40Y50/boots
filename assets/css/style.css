@@ -51,6 +51,16 @@ h1, h2 {
 .sharp-corners * {
     border-radius: 0 !important;
 }
+/* button styles */
+.custom-button {
+    background-color: #1f7798;
+    border: #1f7798;
+}
+.custom-button:hover {
+    background-color: #184f63;
+    border: #184f63;
+}
+
 /* Media queries */
 @media screen and (max-width: 1200px) {
     #portfolio .card-text {
