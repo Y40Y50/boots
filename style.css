@@ -1,8 +1,0 @@
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
-    justify-content: center;
-    padding: 400px;
-    background-color: #f9f9f9;
-}
